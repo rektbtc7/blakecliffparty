@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10051f">
+<title>BLAKE CLIFF PARTY</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+:root{--bg:#10051f;--pink:#ff43a4;--yellow:#ffe45e;--muted:#c8b6d8}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:#fff;background:radial-gradient(ellipse at 50% 0%,#54206d 0%,transparent 48%),linear-gradient(145deg,#10051f,#1b092b 55%,#08030e);font-family:'Space Grotesk',sans-serif}
+.page{width:min(920px,calc(100% - 36px));margin:auto;padding:54px 0 36px}
+header{text-align:center;margin-bottom:34px}
+.kicker,.section-label{color:var(--yellow);font:700 10px 'Space Mono',monospace;letter-spacing:3px;text-transform:uppercase}
+h1{margin:15px 0 10px;font-size:clamp(42px,9vw,82px);line-height:.95;letter-spacing:-4px;text-shadow:0 0 30px #ff43a455}
+h1 span{color:var(--pink)}
+.subtitle{color:var(--muted);font-size:14px;letter-spacing:1px}
+.celebration{margin:30px auto 42px;padding:23px 20px;max-width:680px;text-align:center;border:1px solid #ffffff2a;border-radius:18px;background:linear-gradient(120deg,#ff43a41a,#a879ff1c,#ffe45e12);box-shadow:0 18px 60px #0005}
+.emoji-line{font-size:26px;letter-spacing:7px}
+.celebration h2{margin:12px 0 8px;color:var(--yellow);font-size:clamp(25px,5vw,38px)}
+.celebration p{margin:0;color:#eadcf4;font-size:14px;line-height:1.6}
+.block{display:inline-block;margin-top:13px;padding:8px 14px;border-radius:999px;color:#fff;background:#ffffff16;border:1px solid #ffffff30;font:700 13px 'Space Mono',monospace}
+.section-label{margin:0 0 15px;font-size:11px;letter-spacing:2px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.project{display:flex;min-height:155px;flex-direction:column;justify-content:space-between;padding:20px;color:#fff;text-decoration:none;border:1px solid #ffffff25;border-radius:15px;background:linear-gradient(145deg,#2b1740,#1a0c29);transition:transform .2s,border-color .2s}
+.project:hover{transform:translateY(-4px);border-color:var(--pink)}
+.project-icon{font-size:25px}
+.project h3{margin:16px 0 7px;font-size:17px;line-height:1.2}
+.project p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}
+.visit{margin-top:18px;color:var(--yellow);font:700 10px 'Space Mono',monospace;letter-spacing:1px}
+.install-note{margin:18px 0 45px;color:var(--muted);text-align:center;font-size:12px;line-height:1.6}
+.donation{display:grid;grid-template-columns:1fr 190px;align-items:center;gap:25px;padding:25px;border:1px solid #ffe45e55;border-radius:18px;background:linear-gradient(120deg,#ffe45e12,#ff43a411)}
+.donation h2{margin:0 0 9px;font-size:25px}
+.donation p{margin:0 0 15px;color:var(--muted);font-size:13px;line-height:1.6}
+.address{display:block;overflow-wrap:anywhere;padding:12px;color:#fff;border:1px solid #ffffff2a;border-radius:9px;background:#08030e88;font:11px/1.6 'Space Mono',monospace;user-select:all}
+.qr-wrap{padding:10px;border-radius:12px;background:#fff;text-align:center}
+.qr-wrap img{display:block;width:100%;height:auto}
+.qr-caption{margin-top:7px;color:#24152e;font:700 9px 'Space Mono',monospace;letter-spacing:1px}
+footer{padding-top:30px;color:#9e89af;text-align:center;font:9px 'Space Mono',monospace;letter-spacing:1.5px}
+@media(max-width:700px){.projects{grid-template-columns:1fr}.project{min-height:130px}.donation{grid-template-columns:1fr;text-align:center}.qr-wrap{width:190px;margin:0 auto}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+<div class="kicker">⚡ Bitcoin BLAKE milestone celebration ⚡</div>
+<h1>BLAKE CLIFF <span>PARTY</span></h1>
+<div class="subtitle">🚀 THE CLIFF HAS BEEN CONQUERED! 🚀</div>
+</header>
+
+<section class="celebration">
+<div class="emoji-line">🎉 🥳 🎊 🪩 🎈</div>
+<h2>WE HIT THE CLIFF!</h2>
+<p>A little celebration for Bitcoin BLAKE and everyone watching the blocks roll in.</p>
+<div class="block">MILESTONE BLOCK · 979,919</div>
+<div class="emoji-line" style="margin-top:14px">🚀 🍾 🎆 ⭐</div>
+</section>
+
+<section>
+<h2 class="section-label">EXPLORE THE PROJECTS</h2>
+<div class="projects">
+<a class="project" href="https://btcblake.vercel.app/" target="_blank" rel="noopener noreferrer">
+<div><div class="project-icon">📈</div><h3>Bitcoin Blake Price Check</h3><p>Check Bitcoin BLAKE market pricing.</p></div><div class="visit">OPEN PROJECT ↗</div>
+</a>
+<a class="project" href="https://blakehash.vercel.app/" target="_blank" rel="noopener noreferrer">
+<div><div class="project-icon">⛏️</div><h3>Bitcoin Blake Live Hashrate</h3><p>Follow the network hashrate.</p></div><div class="visit">OPEN PROJECT ↗</div>
+</a>
+<a class="project" href="https://blake2sha.vercel.app/" target="_blank" rel="noopener noreferrer">
+<div><div class="project-icon">🔄</div><h3>Bitcoin Blake → SHA → USD Converter</h3><p>Convert between BLAKE, SHA and USD.</p></div><div class="visit">OPEN PROJECT ↗</div>
+</a>
+</div>
+<p class="install-note">📲 Add these projects to your phone’s Home Screen and use them like apps.</p>
+</section>
+
+<section class="donation">
+<div>
+<h2>❤️ SUPPORT THE PROJECTS</h2>
+<p>If these tools are useful to you, you can support their development with a Bitcoin donation.</p>
+<span class="address">bc1qt59feseuqngdcx35pypsyt435a7m5r8cf49s73</span>
+</div>
+<div class="qr-wrap">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAADJklEQVR4nO2cQY7bOgyGPz4b8NIBeoAcRb7BO1LRI+UG9lFygAGsZQAFfxeSHHdm1aaw05heBInjD0MhBMWfpMbEb1/Tf7/PgEMOOeSQQw459J6QlaulfmyXe2Y2xOXdLuY5tD0UJEkzQDQD7qaxlwhzI6CRJOlXaDvzHNoeiiUA2ABAn4DYoh/nhEZK3NjNPIc2g9rPN6YTEC4tFgQWZrBw+Qt/yaF/A/riEWEEpnNqNVmTNBmIuJd5Dm0OVY/oBURgMlCY7xj9jEGTAFhXsl58TQ79BWgyM7MTEOZGNsROhGsLYQYbuGepsZd5Dm0dIz6VskW8m4ig6YSVCLKHeQ5tDpFVZZgBaKSxT/WrXlrL0ipBNb74mhx6BqL8ykq5KAE0pQpRvISsPh+PuEe8NZR3DQMQ8YSm/z8M+psBTSqZZf/Rlkc2Ns+hzaGSR0wDVMHRCeKJUqbKgqOTraAXX5NDz0DLrrFsGJIISkjzUrvu64vvGgeBbAAk3QyimcbYYkOfsCGaSddybyfzHNonsyySok9o7JVVx6PdJc31YY8R7w/ZEDvZ0Cc0xi7nj/Z9BhtyZLgb0MiGXcxzaI++xt1E/FacgR6YTh8QLifTdE6t0SfXGseCbOgTBN0sFyBy4tAnCNdOGqNPzBwBoqqJlHsYJXsAHgpDI55HHAZaq88sPOdm5QdAU/wF8JrlAaAaI/LVLAojLZN2zarG7THi/aHFIx6TlI1KI2Mu7+q9xitUB4CW3mf5zXMp4tH4yj2v2gD1GPH+0GqqzoLuRrgahMupNr7ON4P4LQFNsjBua55Dm0Or+YgSBWZWWkPK0/nLR48R7w6ttMajq1W2jhmKLK1O43nE+0NftEbucNTeJ0GJqkiT5xHHgZbc0QaW0zr9zfTDulqPqA2Pf2VNDj0FPUrUQClOxU72XSlPaudosZd5Du0HTdbm5oYNOUaYlWlc72scAvp6puuSlaaYrJFlzXntxHRe0o0XX5NDz0Cfz3SJSDnOFXQvp8Snc8LCta3bxouvyaFnoM9aA2rhsgxWzlC7oK41jgCZ/2cyhxxyyCGHHHLoD6GfIbtkTPhn12EAAAAASUVORK5CYII=" alt="Bitcoin donation QR code">
+<div class="qr-caption">SCAN TO DONATE · BTC</div>
+</div>
+</section>
+<footer>KEEP THE PARTY GOING 🎉</footer>
+</div>
+</body>
+</html>
